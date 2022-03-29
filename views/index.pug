@@ -1,0 +1,63 @@
+doctype html
+html
+  head
+    title Harry Dance Academy
+    style
+      include ../static/style.css
+    body 
+        nav#navbar
+            ul
+                #logo 
+                    img(src="/static/img/logo.png")
+                    | PDA
+                li #[a( href="/") Home ]
+                li #[a(href="/") About]
+                li #[a(href="/") Services ]
+                li #[a(href="/") Class Info ]
+                li #[a(href="/") Contact]
+
+    section#introSection 
+        div welcome to pankaj's dance academy
+        div.small dance with me
+
+    section#missionSection 
+        h2  our misson here
+        div.card
+            h3 Dance Perfection 
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")
+                
+                div.card-content 
+                    p This is the best dance academy
+        div.card
+            h3 Dance the way you like 
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.png")
+                
+                div.card-content 
+                    p This is the best dance academy
+
+        div.card
+            h3 expert learning
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png")
+                
+                div.card-content 
+                    p This is the best dance academy
+
+    section#sponsorSection 
+        h2 our spnsor here   
+        div#sponsor
+            img(src="/static/img/logo1.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/logo2.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/logo3.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/logo4.png", alt="Sponsor Image", class="spImage")
+
+    footer#footer 
+        |copyright 2022 by pankaj      
+
+        script  
+            include ../static/index.js

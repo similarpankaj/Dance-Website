@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;600&family=Hubballi&family=Inspiration&family=Open+Sans:ital@1&display=swap');
+h2{
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container h2{
+    font-size: 50px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.myInput{
+    font-size: 16px;
+    width: 40%;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid red;
+    border-radius: 12px;
+    outline: none;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background: blueviolet;
+}
