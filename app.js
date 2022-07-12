@@ -8,13 +8,15 @@ const port = 80;
 
 
 //define mongoose schema
-const Contact = mongoose.model('Contact', {
+const ContactSchema = new mongoose.Schema( {
      name: String,
      phone: String,
      email: String,
      address: String,
      desc: String,
      });
+
+     const Contact = new mongoose.model('Contact',ContactSchema);
 
 // const kitty = new Cat({ name: 'Zildjian' });
 // kitty.save().then(() => console.log('meow'));
